@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari 1</title>
+</head>
+<body style="background-color: rgb(209, 247, 252);
+    font-family:Arial;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;">
+
+    <h1>Formulari bàsic de registre</h1>
+    <form action="" method="get">
+        <fieldset>
+
+            <p>Nom: <input type="text" name="nom" size="40"></p>
+            <p>Cognom: <input type="text" name="cognom" size="40"></p>
+            <p>Sexe: <input type="radio" name="sex" value="home">Home
+            <input type="radio" name="sex" value="dona">Dona</p>
+            <p>Correu electrònic: <input type="mail" name="correu" id="mail" value="@" size="40"></p>
+
+            <label for="població">població:</label>
+            <select name="població" id="població">
+                <option value="Arbúcies">Arbúcies</option>
+                <option value="Badalona">Badalona</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Girona">Girona</option>
+                <option value="Vilassar de Mar">Vilassar de Mar</option>
+            </select>
+
+            <p></p>
+            <p>Agrega una nova descripció</p>
+
+            <p><textarea name="missatge" placeholder="Descripció" cols="50" rows=5></textarea></p>
+            <p><input type="checkbox" checked name="verificació"> Vull rebre informació sobre novetats i ofertes.</p> 
+            <p><input type="checkbox" name="verificació">Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD.</p>
+            <p><input type="button" name="Eviar" id="Enviar" value="Enviar"></p>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

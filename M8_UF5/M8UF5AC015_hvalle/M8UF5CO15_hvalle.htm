@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari d’enviament</title>
+    <script type="text/javascript">
+        function validar(){
+        var psswd=document.getElementById("psswd").value;
+        var confpsswd=document.getElementById("confpsswd").value;
+        if(psswd==confpsswd){
+        return true;
+        }
+        else{
+        alert("No coincideix");
+        return false;
+        }
+        }
+        </script>
+</head>
+    <body style="background-color: rgb(255, 255, 255);
+    font-family:Verdana;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;">
+    
+        <center>
+            <form action="hugo.valle@inslapineda.cat" method="post" enctype="text/plain">
+                <table cellspacing="0" cellpadding="6" border="0">
+                    <tr style="background-color: #306090; color: white;">
+                        <th align="left">Enviar missatge</th>
+                        <th align="right"><img src="img/gb_reload_s.gif" alt="imatge no disponible"></th>
+                    </tr>
+                    <tr style="background-image: url(bg_blue-whitem.gif); background-color: #EFEFEF;">
+                        <td align="right">Nom:</td>
+                        <td><input type="text" name="Nom" id="Nom" size="50" maxlength="50"></td>   
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td align="right">E-mail:</td>
+                        <td><input type="text" name="E-mail" id="E-mail" size="50" maxlength="50"></td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td align="right">Arxiu:</td>
+                        <td><input type="file" name="Arxiu" id="Arxiu"></td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td align="right">imatge</td>
+                        <td><input type="file" name="imatge" id="imatge"></td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td colspan="2" align="center" style="font-size: small;">El tamany de l'arxiu i la imatge no pot excedir els 4 KBytes.</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td colspan="2" align="center">Requereix resposta:<input type="radio" name="sino" value="sí">Sí<input type="radio" name="sino" value="no">No</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td colspan="2" align="center">missatge</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td colspan="2" align="center"><textarea name="texta" id="texta" cols="50" rows="5"></textarea></td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td align="right">Usuari</td>
+                        <td><input type="text" name="Usuari" id="Usuari" size="50" maxlength="50" required></td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td align="right">Psswd</td>
+                        <td><input type="password" name="psswd" id="psswd" size="50" maxlength="50" required></td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td align="right">Repetir Psswd</td>
+                        <td><input onsubmit="return validar" type="password" name="confpsswd" id="confpsswd" size="50" maxlength="50" required></td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td colspan="2" align="center">A quins jocs jugues habitualment?</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td></td>
+                        <td><input type="checkbox" name="check1" value="check1">Fortnite</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td></td>
+                        <td><input type="checkbox" name="check1" value="check1">Counter Strike</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td></td>
+                        <td><input type="checkbox" name="check1" value="check1">Leage Of Legends</td>
+                    </tr>    
+                    <tr style="background-color: #EFEFEF;">
+                        <td></td>
+                        <td><input type="checkbox" name="check1" value="check1">Rocket Leage</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td></td>
+                        <td><input type="checkbox" name="check1" value="check1">Call Of Duty</td>
+                    </tr>
+                    <tr style="background-color: #EFEFEF;">
+                        <td colspan="2" align="center"><input type="submit" name="Enviar" value="Enviar"></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
