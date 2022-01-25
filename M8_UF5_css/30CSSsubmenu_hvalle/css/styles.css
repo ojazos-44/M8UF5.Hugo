@@ -1,0 +1,51 @@
+.header{
+    margin:auto;
+    width: 100%;
+}
+
+/* configurar ul */
+
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: green;
+}
+
+/* configurar de horizontal a vertical */
+
+.menu > li{
+    float: left;
+}
+
+/* configurar entorno del menu */
+
+.menu li a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: block;
+    text-align: center;
+    min-width: 80px;
+}
+
+/* al pasar por encima cambia de color */
+
+.menu li a:hover {
+    color: yellow;
+}
+
+/* hace que el menu no esté abierto siempre. */
+
+.menu li ul {
+    display: none;
+}
+
+/* hace que se pueda abrir el menú */
+
+.menu li:hover > ul {
+    display: block;
+}

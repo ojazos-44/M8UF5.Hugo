@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cat">
+
+<head>
+    <meta charset="UTF-8">
+    <meta author="Vladyslav">
+    <title> Formulari de reserva</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body id="fondo">
+    <div id="form">
+    <br>
+    <form action="mailto:hugo.valle@inslapineda.cat" method="GET">
+        <input type="hidden" name="id" id="id" value="123">
+        <table align="center" style="background-color:  #efefef; padding: 0px;">
+            <tr style="background-color: #333; color: rgb(255, 255, 255);">
+                <td colspan="3" align="center"><strong>&nbsp;Fer la reserva</strong></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Nom :</strong></td>
+                <td><input type="text" name="nom" id="nom" maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Cognom :</strong></td>
+                <td><input type="tetx" name="cognom" id="cognom" maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Correu electronic :</strong></td>
+                <td><input type="email" name="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Quin serveis t'interessen?</strong></td>
+                <td><input type="checkbox" name="interes" id="int_1">Viatges <br> <input type="checkbox" name="interes"
+                        id="int_2">Hotels <br> <input type="checkbox" name="interes" id="int_3">Transport <br></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="font-size: large;" align="center"> <strong>Missatge</strong></td>
+            </tr>
+            
+            <tr>
+                <td colspan="3" align="center"><textarea name="descripcio" id="descrip" cols="45" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="font-size: small;" colspan="3">Vols rebre publicitat : <input type="radio"
+                        name="resposta" id="si" value="Sí" required>Sí <input type="radio" name="resposta" id="No"
+                        value="No">No</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><button type="submit">Enviar</button><button type="reset">Borrar</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+</div>
+</body>
+
+</html>

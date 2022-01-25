@@ -1,0 +1,222 @@
+body {
+    background-color:white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    width: 555px;
+    height: 355px;
+    display: flex;
+    flex-direction: row;
+}
+
+#w1 {
+    background-color: whitesmoke;
+    width: 55px;
+    height: 75px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#w2 {
+    background-color: whitesmoke;
+    width: 55px;
+    height: 200px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#w3 {
+    background-color: whitesmoke;
+    width: 55px;
+    height: 30px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#w4 {
+    background-color: whitesmoke;
+    width: 55px;
+    height: 35px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* column2 */
+ #y1 {
+    background-color: yellow;
+    width: 120px;
+    height: 355px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+  /* column3 */
+  #b1 {
+    background-color: blue;
+    width: 120px;
+    height: 125px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+  #y2 {
+    background-color: yellow;
+    width: 120px;
+    height: 225px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ /* column4 */
+#c4 {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+ }
+#r1 {
+    background-color: red;
+    width: 120px;
+    height: 225px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+/* subcol4_1 */
+#subcol4_1 {
+    display: flex;
+    flex-direction: row;
+}
+#r2 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+
+}
+#r3 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ 
+}
+/* subcol 4_2 */
+#subcol4_2 {
+    display: flex;
+    flex-direction: row;
+}
+#b2 {
+    background-color: blue;
+    width: 57.5px;
+    height: 85px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#r4 {
+    background-color: red;
+    width: 57.5px;
+    height: 85px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /* colum5 */
+ #c5 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ /* subcol5_1 */
+ #subcol5_1 {
+    display: flex;
+    flex-direction: row;
+ }
+
+ #y3 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 75px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ /* subcol5_1_1 */
+ #subcol5_1_1 {
+    display: flex;
+    flex-direction: column;
+ }
+ #y4 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ #r5 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*  */
+ /* subcol5_2 */
+ #subcol5_2 {
+    display: flex;
+    flex-direction: row;
+ }
+ #w5 {
+    background-color: whitesmoke;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#w6 {
+    background-color: whitesmoke;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*  */
+ #r6 {
+    background-color: red;
+    width: 120px;
+    height: 105px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+ /* subcol5_3 */
+ #subcol5_3 {
+    display: flex;
+    flex-direction: row;
+ }
+ #y5 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 125px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ #y6 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 125px;
+ }

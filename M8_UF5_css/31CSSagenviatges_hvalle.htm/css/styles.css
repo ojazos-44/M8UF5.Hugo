@@ -1,0 +1,352 @@
+/* todo */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.925);
+}
+
+p {
+    margin: 0;
+}
+
+h1.titol {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* nav */
+
+#nav {
+    background-color: #333;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#nav ul {
+
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: rgb(199, 192, 192);
+    padding: 12px 30px;
+}
+
+#nav li {
+    letter-spacing: 0.05em;
+    min-width: 160px;
+    text-align: center;
+    border-left: 2px solid black;
+    height: 30px;
+    padding-top: 10px;
+}
+
+#nav li:hover {
+    background-color: rgba(245, 206, 206, 0.288);
+}
+
+#nav li a:hover {
+    color: rgb(255, 0, 0);
+}
+#nav li:last-of-type {
+    border-right: 2px solid black ;
+}
+
+#head_img {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+
+/* Content */
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+p.subtit {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: rgba(51, 48, 48, 0.514);
+}
+
+
+/* fotos y botones */
+
+#fotos {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.img_cantainer {
+    height: 160px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.img_cantainer:first-of-type {
+   margin-left: none;
+}
+
+.imatge_content {
+    width: 300px;
+    height: 160px;
+}
+
+.imatge_content:hover {
+    opacity: 70%;
+}
+
+p.img_tit {
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+p.text {
+    text-align: center;
+    color: rgba(70, 65, 65, 0.925);
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+
+ /* Footer */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    color: rgba(129, 123, 123, 0.925);
+    width: 80%;
+}
+
+#footer_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#footer_list ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#footer_list li {
+    min-width: 160px;
+    text-align: center;
+}
+
+#footer_list li a{
+    text-decoration: none;
+    color: rgba(70, 65, 65, 0.925);
+}
+
+#footer_list li a:hover{
+    color: rgba(70, 65, 65, 0.466);
+}
+
+
+/* Estilo de la pagina */
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+/* Curriculum */
+
+#curr {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    color: rgba(70, 65, 65, 0.925);
+    font-family: sans-serif;
+}
+
+#curr hr {
+    width: 100%;
+}
+
+
+/* Formulari */
+
+#form table {
+    width: 600px;
+    height: 400px;
+}
+
+#form table button {
+    color: white;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 8px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+
+/* cssModriana: cajas y fotos */
+
+#modr {
+    width: 1200px;
+    height: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+}
+
+#box1 {
+    width: 600px;
+    height: 175px;
+}
+
+#box2 {
+    width: 600px;
+    height: 175px;
+}
+
+#box3 {
+    height: 350px;
+    width: 300px;
+    float: left;
+}
+
+#box4 {
+    height: 175px;
+    width: 300px;
+}
+
+#box5 {
+    height: 175px;
+    width: 600px;
+}
+
+#box6 {
+    height: 175px;
+    width: 300px;
+}
+
+#box7 {
+    height: 175px;
+    width: 300px;
+}
+
+#box8 {
+    height: 175px;
+    width: 300px;
+}
+
+#box9 {
+    height: 175px;
+    width: 300px;
+}
+
+#box10 {
+    height: 175px;
+    width: 300px;
+}
+
+#box11 {
+    height: 175px;
+    width: 300px;
+}
+
+#box12 {
+    height: 175px;
+    width: 300px;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#row4 {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+/* Fondo del CV y del formulario */
+
+#fondo  {
+    background-image: url("../img/fondo.jpg");
+}

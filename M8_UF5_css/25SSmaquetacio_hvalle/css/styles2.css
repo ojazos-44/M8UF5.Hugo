@@ -1,0 +1,45 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    border-style: solid;
+    border-color: rgb(235, 34, 34);
+    border-width: 3px;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+#body{
+    height: 320px;
+    width: 100%;
+}
+aside {
+    border: solid rgb(13, 161, 13) 3px;
+    border-radius: 5px;
+    height: 98.129%;
+    width: 20%;
+    float: left;
+}
+#content {
+   width: 78%;
+   float: right;
+   height: 100%;
+}
+nav {
+    border: solid rgb(23, 121, 250) 3px;
+    border-radius: 5px;
+    height: 15%;
+    margin-bottom: 10px;
+}
+article {
+    border: solid rgb(250, 180, 50) 3px;
+    border-radius: 5px;
+    height: 78%;
+}
+footer {
+    border: solid purple 3px;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 10px;
+}

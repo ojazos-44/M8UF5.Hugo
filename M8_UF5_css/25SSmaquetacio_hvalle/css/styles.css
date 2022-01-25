@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    background-color: red;
+    height: 50px;
+    margin-bottom: 10px;
+}
+#body{
+    height: 320px;
+    width: 100%;
+}
+aside {
+    background-color: green;
+    height: 98.129%;
+    width: 20%;
+    float: left;
+}
+#content {
+   width: 78%;
+   float: right;
+   height: 100%;
+}
+nav {
+    background-color:turquoise;
+    height: 15%;
+    margin-bottom: 10px;
+}
+article {
+    background-color: yellow;
+    height: 80%;
+}
+footer {
+    background-color: purple;
+    height: 50px;
+    margin-top: 10px;
+}
