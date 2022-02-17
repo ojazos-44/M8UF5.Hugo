@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#calculadora {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 560px;
+    width: 360px;
+    background-color: rgb(40, 116, 167);
+    border: 1px solid rgb(0, 60, 116);
+    border-radius: 20px;
+}
+
+#botones {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+button {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 6px;
+    outline: none;
+    box-shadow: 0 6px rgb(136, 136, 136);
+}
+
+button:active {
+    box-shadow: 0 2px rgb(61, 101, 134);
+    transform: translate(4px);
+}
+
+.linea {
+    display: flex;
+    flex-direction: row;
+}
+
+#display {
+    height: 70px;
+    width: 300px;
+    border-radius: 15px;
+    outline: none;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+}
+
+#logo {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.botonjs {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 6px rgb(136, 136, 136);
+    margin-top: 6px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 2em;
+}

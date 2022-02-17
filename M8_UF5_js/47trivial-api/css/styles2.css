@@ -1,0 +1,27 @@
+#fondo {
+    background-image:url("");
+    background-size: cover 0%;
+}
+
+#titulo {
+    text-align: center;
+}
+#div0 {
+    background-color: rgb(10, 59, 82);
+    color: white;
+    text-align: center;
+}
+#div1 {
+    text-align: left;
+}
+#div2 {
+    width: 700px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+#button {
+    color: white;
+    background-color: red;
+    border-radius: 15%;
+}

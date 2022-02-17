@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contrasenya</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(119, 119, 119);
+        }
+
+        #form {
+            margin-top: 100px;
+            text-align: left;
+            padding: 10%;
+            background-color: aquamarine;
+        }
+
+        .boton {
+            border-radius: 10px;
+        }
+    </style>
+
+    <form id="form">
+        
+        <p>Nom: <input type="text" id="user"></p>
+        <p>Contrasenya: <input type="password" id="pass1"> </p>
+        <p>Repeteix la Contrasenya: <input type="password" id="pass2"> </p>
+
+        <button class="boton" onclick="comp()">Comprova</button>
+
+        <p>Nom: <input type="text" id="nom"></p>
+        <p>Cognom: <input type="text" id="cognom"></p>
+
+
+        <input class="boton" onclick="GuardarDades()" type="button" value="Guardar dades">
+        <input class="boton" onclick="RecuperarDades()" type="button" value="Recuperar dades">
+        <input class="boton" onclick="EsborrarDades()" type="button" value="Esborrar dades">
+
+
+    </form>
+
+    <script type="text/javascript" src="js/cookies1.js"></script>
+    <script type="text/javascript" src="js/cookies2.js"></script>
+
+</body>
+</html>
